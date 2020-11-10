@@ -1,6 +1,6 @@
 @font-face {
     font-family: Muli;
-    src: url("../Muli.ttf");
+    src: url("../fonts/JetBrainsMono-Regular.woff");
 }
 
 * {
@@ -88,4 +88,17 @@ button:hover {
 img {
     border-radius: 20px;
     border: 1px solid #709FF2; 
+}
+
+
+td {
+    padding: 10px;
+}
+
+table {
+    border: .1px;
+    background: #111111;
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
 }
