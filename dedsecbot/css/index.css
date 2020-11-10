@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Muli;
+    src: url("../fonts/JetBrainsMono-Regular.woff");
+}
+
+* {
+    font-family: Muli, sans-serif;
+}
+
+body{
+    background-color: #2B2D35;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-animation: 3s linear infinite;
+            animation: 3s linear infinite;
+    -webkit-animation-name: background_animation;
+            animation-name: background_animation;
+}
+
+.namebot{
+    font-size: 500%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    transition: .3s all;
+    font-size: 130%;
+    color: white;
+    outline: 0;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 20px;
+    background: #2A3545;
+    margin: 2px;
+    padding: 10px 10px;
+    border-bottom: 1px solid #709FF2; 
+}
+
+button:hover {
+    color: black;
+    background: white;
+    transform-style: preserve-3d;
+    transform-origin: left center;
+    transition: transform 150ms ease-in-out;
+    transition: .3s all;
+}
+
+@-webkit-keyframes background_animation{
+    50% {background-color: #151A2E;}
+}
+
+@keyframes background_animation{
+    50% {background-color: #151A2E;}
+}
+
+.wrapper {
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.9), 
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("../imgs/img1.png") no-repeat center center;
+    background-size: cover;
+    padding: 10px;
+    margin: 100px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+    perspective: 500px;
+    border: 2px solid #709FF2;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+.information {
+    font-size: 100%;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+
+img {
+    border-radius: 20px;
+    border: 1px solid #709FF2; 
+}
+
+
+td {
+    padding: 10px;
+}
+
+table {
+    border: .1px;
+    background: #111111;
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+}
