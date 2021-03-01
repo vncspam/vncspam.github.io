@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/vk-apps-todo/static/css/main.c793b830.chunk.css",
+    "main.js": "/vk-apps-todo/static/js/main.085b3741.chunk.js",
+    "main.js.map": "/vk-apps-todo/static/js/main.085b3741.chunk.js.map",
+    "runtime~main.js": "/vk-apps-todo/static/js/runtime~main.24924777.js",
+    "runtime~main.js.map": "/vk-apps-todo/static/js/runtime~main.24924777.js.map",
+    "static/css/2.b5769064.chunk.css": "/vk-apps-todo/static/css/2.b5769064.chunk.css",
+    "static/js/2.58b05a3d.chunk.js": "/vk-apps-todo/static/js/2.58b05a3d.chunk.js",
+    "static/js/2.58b05a3d.chunk.js.map": "/vk-apps-todo/static/js/2.58b05a3d.chunk.js.map",
+    "index.html": "/vk-apps-todo/index.html",
+    "precache-manifest.5bb15c65f4f6892583b18b73990933f2.js": "/vk-apps-todo/precache-manifest.5bb15c65f4f6892583b18b73990933f2.js",
+    "service-worker.js": "/vk-apps-todo/service-worker.js",
+    "static/css/2.b5769064.chunk.css.map": "/vk-apps-todo/static/css/2.b5769064.chunk.css.map",
+    "static/css/main.c793b830.chunk.css.map": "/vk-apps-todo/static/css/main.c793b830.chunk.css.map"
+  }
+}
